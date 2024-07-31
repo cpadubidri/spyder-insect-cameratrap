@@ -1,0 +1,8 @@
+[Unit]
+Description=Run mounthdd.service at boot
+
+[Timer]
+OnBootSec=1sec
+
+[Install]
+WantedBy=timers.target

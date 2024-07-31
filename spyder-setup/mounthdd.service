@@ -1,0 +1,6 @@
+[Unit]
+Description=Mount HDD
+
+[Service]
+Type=oneshot
+ExecStart=/home/pepper/mounthdd.sh
