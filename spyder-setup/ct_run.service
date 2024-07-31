@@ -1,0 +1,19 @@
+[Unit]
+
+Description=Camera Trap run script
+
+After=multi-user.target
+
+
+
+[Service]
+
+Type=idle
+
+ExecStart=/usr/bin/python /home/pepper/InsectAI-SDM/spyder-insect-cameratrap/spyder-code/camera.py
+
+
+
+[Install]
+
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+#adafruit_sht31d
+board
+numpy
+scipy
+adafruit-circuitpython-sht31d
+opencv-contrib-python==4.5.2.52

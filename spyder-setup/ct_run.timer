@@ -1,0 +1,17 @@
+[Unit]
+
+Description=Run CT run script camera.py at Boot
+
+
+
+[Timer]
+
+OnBootSec=10sec
+
+Unit=ct_run.service
+
+
+
+[Install]
+
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+{
+    "savepath": "/home/pepper/data", 
+    "framerate": 8, 
+    "width": 512, 
+    "height" : 512, 
+    "camera_index": 0 , 
+    "debug":false, 
+    "logpath": "/home/pepper/data/log"
+}
